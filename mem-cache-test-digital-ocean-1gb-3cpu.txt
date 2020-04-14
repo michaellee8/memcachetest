@@ -1,0 +1,154 @@
+mem-cache-test-digital-ocean-1gb-3cpu
+
+processor	: 0
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 85
+model name	: Intel(R) Xeon(R) Gold 6140 CPU @ 2.30GHz
+stepping	: 4
+microcode	: 0x1
+cpu MHz		: 2294.608
+cache size	: 4096 KB
+physical id	: 0
+siblings	: 1
+core id		: 0
+cpu cores	: 1
+apicid		: 0
+initial apicid	: 0
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 13
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ss syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon rep_good nopl cpuid tsc_known_freq pni pclmulqdq vmx ssse3 fma cx16 pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand hypervisor lahf_lm abm 3dnowprefetch cpuid_fault invpcid_single pti ssbd ibrs ibpb tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid mpx avx512f avx512dq rdseed adx smap clflushopt clwb avx512cd avx512bw avx512vl xsaveopt xsavec xgetbv1 pku ospke md_clear
+bugs		: cpu_meltdown spectre_v1 spectre_v2 spec_store_bypass l1tf mds swapgs
+bogomips	: 4589.21
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 40 bits physical, 48 bits virtual
+power management:
+
+processor	: 1
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 85
+model name	: Intel(R) Xeon(R) Gold 6140 CPU @ 2.30GHz
+stepping	: 4
+microcode	: 0x1
+cpu MHz		: 2294.608
+cache size	: 4096 KB
+physical id	: 1
+siblings	: 1
+core id		: 0
+cpu cores	: 1
+apicid		: 1
+initial apicid	: 1
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 13
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ss syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon rep_good nopl cpuid tsc_known_freq pni pclmulqdq vmx ssse3 fma cx16 pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand hypervisor lahf_lm abm 3dnowprefetch cpuid_fault invpcid_single pti ssbd ibrs ibpb tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid mpx avx512f avx512dq rdseed adx smap clflushopt clwb avx512cd avx512bw avx512vl xsaveopt xsavec xgetbv1 pku ospke md_clear
+bugs		: cpu_meltdown spectre_v1 spectre_v2 spec_store_bypass l1tf mds swapgs
+bogomips	: 4589.21
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 40 bits physical, 48 bits virtual
+power management:
+
+processor	: 2
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 85
+model name	: Intel(R) Xeon(R) Gold 6140 CPU @ 2.30GHz
+stepping	: 4
+microcode	: 0x1
+cpu MHz		: 2294.608
+cache size	: 4096 KB
+physical id	: 2
+siblings	: 1
+core id		: 0
+cpu cores	: 1
+apicid		: 2
+initial apicid	: 2
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 13
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ss syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon rep_good nopl cpuid tsc_known_freq pni pclmulqdq vmx ssse3 fma cx16 pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand hypervisor lahf_lm abm 3dnowprefetch cpuid_fault invpcid_single pti ssbd ibrs ibpb tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid mpx avx512f avx512dq rdseed adx smap clflushopt clwb avx512cd avx512bw avx512vl xsaveopt xsavec xgetbv1 pku ospke md_clear
+bugs		: cpu_meltdown spectre_v1 spectre_v2 spec_store_bypass l1tf mds swapgs
+bogomips	: 4589.21
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 40 bits physical, 48 bits virtual
+power management:
+
+
+LEVEL1_ICACHE_SIZE                 32768
+LEVEL1_ICACHE_ASSOC                8
+LEVEL1_ICACHE_LINESIZE             64
+LEVEL1_DCACHE_SIZE                 32768
+LEVEL1_DCACHE_ASSOC                8
+LEVEL1_DCACHE_LINESIZE             64
+LEVEL2_CACHE_SIZE                  2097152
+LEVEL2_CACHE_ASSOC                 8
+LEVEL2_CACHE_LINESIZE              64
+LEVEL3_CACHE_SIZE                  0
+LEVEL3_CACHE_ASSOC                 0
+LEVEL3_CACHE_LINESIZE              0
+LEVEL4_CACHE_SIZE                  0
+LEVEL4_CACHE_ASSOC                 0
+LEVEL4_CACHE_LINESIZE              0
+
+Architecture:        x86_64
+CPU op-mode(s):      32-bit, 64-bit
+Byte Order:          Little Endian
+CPU(s):              3
+On-line CPU(s) list: 0-2
+Thread(s) per core:  1
+Core(s) per socket:  1
+Socket(s):           3
+NUMA node(s):        1
+Vendor ID:           GenuineIntel
+CPU family:          6
+Model:               85
+Model name:          Intel(R) Xeon(R) Gold 6140 CPU @ 2.30GHz
+Stepping:            4
+CPU MHz:             2294.608
+BogoMIPS:            4589.21
+Virtualization:      VT-x
+Hypervisor vendor:   KVM
+Virtualization type: full
+L1d cache:           32K
+L1i cache:           32K
+L2 cache:            4096K
+NUMA node0 CPU(s):   0-2
+Flags:               fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ss syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon rep_good nopl cpuid tsc_known_freq pni pclmulqdq vmx ssse3 fma cx16 pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand hypervisor lahf_lm abm 3dnowprefetch cpuid_fault invpcid_single pti ssbd ibrs ibpb tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid mpx avx512f avx512dq rdseed adx smap clflushopt clwb avx512cd avx512bw avx512vl xsaveopt xsavec xgetbv1 pku ospke md_clear
+
+,4,8,16,32,64,128,256,512,1024,2048,4096,8192,16384,32768,65536,131072,262144,
+4,
+8, 0.474,
+16, 0.665, 0.582,
+32, 0.789, 0.688, 0.546,
+64, 0.735, 0.708, 0.676, 0.497,
+128, 0.810, 0.785, 0.707, 0.671, 0.593,
+256, 0.821, 0.771, 0.724, 0.876, 0.742, 0.485,
+512, 0.869, 0.973, 0.800, 0.726, 0.724, 0.707, 0.502,
+1024, 0.864, 0.882, 0.821, 0.820, 0.687, 0.739, 0.667, 0.649,
+2048, 0.967, 0.831, 0.858, 0.817, 0.789, 0.729, 0.735, 0.660, 0.475,
+4096, 0.854, 0.865, 0.866, 0.790, 0.825, 0.780, 0.730, 0.705, 0.674, 0.277,
+8192, 0.849, 0.868, 0.878, 0.850, 0.848, 0.847, 0.767, 0.717, 0.719, 0.700, 0.445,
+16384, 0.858, 0.637, 0.844, 0.856, 0.775, 0.851, 0.815, 0.786, 0.730, 0.843, 0.868, 0.407,
+32768, 0.855, 0.853, 0.862, 0.844, 0.875, 0.859, 0.856, 0.819, 0.788, 0.824, 1.199, 0.890, 0.515,
+65536, 0.870, 0.829, 0.920, 0.883, 1.012, 1.378, 1.391, 1.690, 2.890, 2.911, 3.804, 1.454, 0.864, 0.539,
+131072, 0.856, 0.917, 0.809, 0.927, 0.933, 1.368, 1.395, 1.712, 2.778, 3.545, 4.181, 4.206, 1.200, 1.049, 0.301,
+262144, 0.858, 0.858, 0.861, 0.874, 0.892, 1.383, 1.427, 1.806, 2.776, 3.488, 4.197, 4.110, 3.901, 1.186, 0.943, 0.475,
+524288, 0.869, 0.976, 1.245, 1.079, 0.906, 1.382, 1.472, 1.720, 2.592, 3.303, 4.192, 4.232, 4.155, 3.892, 1.325, 0.935, 0.496,
+1048576, 0.885, 1.324, 1.283, 1.560, 1.364, 2.034, 2.199, 2.158, 2.531, 3.798, 4.543, 4.326, 4.438, 4.249, 3.882, 1.286, 0.967,
+2097152, 0.566, 0.953, 0.921, 1.206, 2.333, 3.383, 3.495, 3.414, 3.416, 4.494, 4.935, 4.607, 4.208, 4.220, 4.126, 3.855, 1.439,
+4194304, 0.869, 0.880, 0.938, 1.281, 2.404, 3.477, 3.758, 3.550, 3.501, 4.490, 4.959, 4.915, 4.784, 4.283, 4.335, 4.179, 3.908,
+8388608, 1.015, 1.039, 1.098, 1.525, 2.761, 4.343, 4.686, 4.279, 4.130, 4.566, 8.589, 5.037, 4.946, 5.091, 4.340, 4.291, 4.177,
+16777216, 0.984, 1.370, 2.410, 4.682, 6.781, 9.000, 7.500, 5.700, 5.154, 5.802, 9.003, 9.539, 5.167, 5.065, 4.618, 4.316, 4.300,
+33554432, 0.992, 1.470, 2.629, 4.780, 8.722,13.757,12.762, 9.311, 9.902,10.078,11.876,11.369,10.373, 5.408, 5.160, 4.917, 4.535,
+67108864, 0.970, 1.428, 2.543, 4.806, 8.827,14.391,14.013,10.289,10.212,11.285,18.545,28.464,16.207,11.406, 5.659, 5.596, 5.361,
+134217728, 1.116, 1.143, 2.555, 4.702, 8.582,13.670,14.795,11.999,11.117,12.477,21.171,37.102,31.178,25.358,19.086, 9.006, 7.177,
+268435456, 0.971, 1.454, 2.537, 4.774, 8.709,13.689,14.083,12.083,11.932,13.805,21.985,39.561,37.216,32.155,30.825,23.313,15.854,
+536870912, 0.973, 1.476, 2.503, 4.633, 8.615,13.557,13.654,12.346,14.337,15.477,23.482,41.955,39.862,36.777,40.781,34.532,29.266,
