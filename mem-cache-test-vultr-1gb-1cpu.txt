@@ -1,0 +1,86 @@
+mem-cache-test-vultr-1gb-1cpu
+
+processor	: 0
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 61
+model name	: Intel Core Processor (Broadwell, no TSX, IBRS)
+stepping	: 2
+microcode	: 0x1
+cpu MHz		: 2394.454
+cache size	: 16384 KB
+physical id	: 0
+siblings	: 1
+core id		: 0
+cpu cores	: 1
+apicid		: 0
+initial apicid	: 0
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 13
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 syscall nx rdtscp lm constant_tsc rep_good nopl xtopology cpuid tsc_known_freq pni pclmulqdq ssse3 fma cx16 pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand hypervisor lahf_lm abm cpuid_fault invpcid_single pti ssbd ibrs ibpb fsgsbase bmi1 avx2 smep bmi2 erms invpcid xsaveopt arat
+bugs		: cpu_meltdown spectre_v1 spectre_v2 spec_store_bypass l1tf mds swapgs itlb_multihit
+bogomips	: 4788.90
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 40 bits physical, 48 bits virtual
+power management:
+
+
+LEVEL1_ICACHE_SIZE                 32768
+LEVEL1_ICACHE_ASSOC                8
+LEVEL1_ICACHE_LINESIZE             64
+LEVEL1_DCACHE_SIZE                 32768
+LEVEL1_DCACHE_ASSOC                8
+LEVEL1_DCACHE_LINESIZE             64
+LEVEL2_CACHE_SIZE                  2097152
+LEVEL2_CACHE_ASSOC                 8
+LEVEL2_CACHE_LINESIZE              64
+LEVEL3_CACHE_SIZE                  16777216
+LEVEL3_CACHE_ASSOC                 16
+LEVEL3_CACHE_LINESIZE              64
+LEVEL4_CACHE_SIZE                  0
+LEVEL4_CACHE_ASSOC                 0
+LEVEL4_CACHE_LINESIZE              0
+
+Architecture:        x86_64
+CPU op-mode(s):      32-bit, 64-bit
+Byte Order:          Little Endian
+CPU(s):              1
+On-line CPU(s) list: 0
+Thread(s) per core:  1
+Core(s) per socket:  1
+Socket(s):           1
+NUMA node(s):        1
+Vendor ID:           GenuineIntel
+CPU family:          6
+Model:               61
+Model name:          Intel Core Processor (Broadwell, no TSX, IBRS)
+Stepping:            2
+CPU MHz:             2394.454
+BogoMIPS:            4788.90
+Hypervisor vendor:   KVM
+Virtualization type: full
+L1d cache:           32K
+L1i cache:           32K
+L2 cache:            4096K
+L3 cache:            16384K
+NUMA node0 CPU(s):   0
+Flags:               fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 syscall nx rdtscp lm constant_tsc rep_good nopl xtopology cpuid tsc_known_freq pni pclmulqdq ssse3 fma cx16 pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand hypervisor lahf_lm abm cpuid_fault invpcid_single pti ssbd ibrs ibpb fsgsbase bmi1 avx2 smep bmi2 erms invpcid xsaveopt arat
+
+,4,8,16,32,64,128,256,512,1024,2048,4096,8192,16384,32768,65536,131072,262144,
+1024, 1.143, 1.109, 1.190, 1.382, 1.261, 1.346, 1.271, 1.072,
+2048, 1.087, 1.202, 1.134, 1.195, 1.281, 1.251, 1.367, 1.296, 1.092,
+4096, 1.115, 1.018, 1.153, 1.175, 1.235, 1.381, 1.266, 1.292, 1.280, 1.099,
+8192, 1.111, 1.222, 1.136, 1.238, 1.065, 1.294, 1.176, 1.189, 1.234, 1.253, 1.086,
+16384, 1.064, 1.054, 1.119, 1.099, 1.054, 1.369, 1.187, 1.203, 1.210, 1.279, 1.411, 1.115,
+32768, 1.045, 1.081, 1.114, 1.219, 1.295, 1.220, 1.128, 1.217, 1.228, 1.169, 1.412, 1.542, 1.121,
+65536, 1.062, 1.063, 1.081, 1.148, 2.354, 2.272, 2.225, 2.224, 3.807, 5.144, 5.854, 1.430, 1.366, 0.477,
+131072, 1.209, 1.331, 1.084, 1.125, 2.361, 2.372, 2.280, 2.306, 3.859, 6.133, 7.244, 5.941, 1.528, 1.351, 1.130,
+262144, 1.245, 1.129, 1.130, 1.345, 2.740, 2.813, 2.748, 2.634, 3.939, 5.848, 7.508, 6.866, 5.978, 1.548, 1.356, 1.091,
+524288, 1.115, 1.127, 1.162, 1.535, 3.148, 3.344, 3.461, 3.060, 3.266, 5.974, 8.614, 8.079, 7.593, 7.134, 2.246, 1.407, 1.150,
+1048576, 1.154, 1.119, 1.121, 1.610, 3.346, 3.871, 3.747, 3.199, 3.366, 5.893, 8.733, 8.832, 8.141, 7.806, 6.875, 2.173, 1.326,
+2097152, 1.205, 1.046, 1.079, 1.856, 3.118, 3.501, 3.649, 3.345, 3.443, 6.392, 8.906, 8.864, 8.685, 7.974, 7.660, 7.290, 2.179,
+4194304, 1.060, 1.076, 1.108, 1.571, 3.245, 3.921, 3.761, 3.096, 3.457, 6.032, 9.018, 8.859, 8.823, 8.716, 7.982, 8.525, 6.772,
+8388608, 1.194, 1.079, 1.128, 1.799, 3.489, 3.942, 4.257, 3.901, 4.814, 6.070,10.171, 8.919, 8.962, 8.860, 8.686, 8.038, 7.279,
